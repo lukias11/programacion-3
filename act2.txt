@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota = prompt("ingresa la nota")
+        if (nota>= 1 && nota <=3 ){
+            document.write("desaprobado")
+        }else if (nota>= 4 && nota <=5) {
+            document.write("aprobado con lo justo ")
+        }else if (nota>= 6 && nota <=8 ){
+            document.write("buen desempeño")
+        }else if (nota>= 9 && nota <=10 ){
+            document.write("exelente")
+        }else {
+            document.write("errorno solo puede ser de 1 a 10")
+       }
+     </script>
+</body>
+</html>

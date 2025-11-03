@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = prompt("ingresa un numero");
+        if (num < 0){
+            document.write("es un numero negativo");
+        }else if (num == 0){
+            document.write("cero");
+        }else if (num <= 100){
+            document.write("este numero es positivo entre 1 a 100");
+        }else {
+            document.write("positivo mayor a 100");
+        }
+    </script>
+</body>
+</html>

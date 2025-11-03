@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let edad = (prompt("ingresar la edad"))
+        if (edad >= 18 ){
+            document.write("puede conducir ya que queres mayor");
+        }else if (edad <= 18){
+            document.write("no puede conducir"); 
+            }else{document.write("sos un alien");
+        }
+    </script>
+</body>
+</html>
